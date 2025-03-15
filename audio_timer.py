@@ -24,7 +24,7 @@ presets_path = os.path.join(base_path, "presets.json")
 def load_presets():
     try:
         # JSON 파일 읽기
-        with open(presets_path, "r", encoding="utf-8") as f:
+        with open(presets_path, "r", encoding="UTF-8") as f:
             return json.load(f)
     except FileNotFoundError:
         messagebox.showwarning("presets.json 파일을 찾을 수 없습니다.")
@@ -33,7 +33,7 @@ def load_presets():
 
 # 프리셋을 파일에 저장
 def save_presets(presets):
-    with open(presets_path, "w", encoding="utf-8") as f:
+    with open(presets_path, "w", encoding="UTF-8") as f:
         json.dump(presets, f, indent=4)
 
 

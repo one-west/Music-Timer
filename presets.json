@@ -1,12 +1,12 @@
 [
-    {
-        "name": "\uc54c\ub78c",
-        "time": "23:36",
-        "audio": "morning_alarm.mp3"
-    },
-    {
-        "name": "\ud654\uc7ac",
-        "time": "23:20",
-        "audio": "fire.mp3"
-    }
+  {
+    "name": "알람",
+    "time": "23:36",
+    "audio": "morning_alarm.mp3"
+  },
+  {
+    "name": "화재",
+    "time": "23:20",
+    "audio": "fire.mp3"
+  }
 ]
