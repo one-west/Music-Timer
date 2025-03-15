@@ -34,7 +34,7 @@ def load_presets():
 # 프리셋을 파일에 저장
 def save_presets(presets):
     with open(presets_path, "w", encoding="UTF-8") as f:
-        json.dump(presets, f, indent=4)
+        json.dump(presets, f, indent=4, ensure_ascii=False)
 
 
 # GUI 로그 출력 함수
